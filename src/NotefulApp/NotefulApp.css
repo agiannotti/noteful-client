@@ -1,13 +1,17 @@
-.NotefulApp{
-    display: flex;
+.flex-one {
+  flex: 1;
+  background-color: #cfc4c4;
+  border-radius: 17px;
 }
 
-.flex-one{
-    flex: 1;
-    background-color: lightcoral;
+.flex-three {
+  flex: 3;
+  background-color: rgb(108, 157, 173);
+  border-radius: 17px;
 }
 
-.flex-three{
-    flex: 3;
-    background-color: lightblue;
+.NotefulApp {
+  display: flex;
+  text-align: center;
+  border-radius: 17px;
 }
